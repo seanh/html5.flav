@@ -21,13 +21,6 @@
             </time>
           </a>
         </li>
-        <li $(article_path_li_attrs)>
-          path:
-          <a href="$(base_url)/$(urlencode(absolute_path))" title="path"
-             $(article_path_a_attrs)>
-            /$(absolute_path)
-          </a>
-        </li>
         $(article_footer_lis)
       </ul>
     </nav>
