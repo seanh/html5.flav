@@ -10,9 +10,17 @@ A customizable HTML5 flavour for Pyblosxom.
 
 * `rel="alternate"` links to the Atom and RSS feeds.
 
-* `rel="author"` and `rel="license"` links in the site `<footer>`, for your
-  `py["blog_author"]`, `py["blog_email]` and `py["blog_rights"]` settings in
-  your `config.py` file.
+* A `rel="author"` link in the site `<footer>`. This uses your
+  `py["blog_author"]` `config.py` setting and a `py["author_link"]` `config.py`
+  setting for the `href`. For example:
+
+  ```python
+  py["blog_author"] = "Sean Hammond"
+  py["author_link"] = "http://seanh.cc/"
+  ```
+
+* A `rel="license"` link in the site `<footer>`. Uses your `py["blog_rights"]`
+  `config.py` setting.
 
 * Favicon support, add a line to your `config.py` file like:
 
