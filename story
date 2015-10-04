@@ -13,13 +13,13 @@
     <nav $(article_footer_nav_attrs)>
       <ul $(article_footer_ul_attrs)>
         <li $(article_time_li_attrs)>
-          posted at:
+          Posted on
           <a href="$(base_url)/$(urlencode(file_path))" rel="bookmark"
              title="link to this post" $(article_time_a_attrs)>
             <time datetime="$(yr)-$(mo_num)-$(da)" $(article_time_attrs)>
               $(date)
             </time>
-          </a>
+          </a>.
         </li>
         $(article_footer_lis)
       </ul>
