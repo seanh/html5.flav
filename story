@@ -17,9 +17,9 @@
           <a href="$(base_url)/$(urlencode(file_path))" rel="bookmark"
              title="link to this post" $(article_time_a_attrs)>
             <time datetime="$(yr)-$(mo_num)-$(da)" $(article_time_attrs)>
-              $(date)
+              $(date).
             </time>
-          </a>.
+          </a>
         </li>
         $(article_footer_lis)
       </ul>
