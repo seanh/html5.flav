@@ -8,7 +8,7 @@
       </h2>
     </a>
   </header>
-  $(body)
+  <div class="post-body" $(post_body_attrs)>$(body)</div>
   <footer $(article_footer_attrs)>
     <nav $(article_footer_nav_attrs)>
       <ul $(article_footer_ul_attrs)>
