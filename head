@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="$(blog_language)">
+<head>
+  <meta charset="$(blog_encoding)" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$(blog_title)</title>
+  <link rel="alternate" type="application/atom+xml"
+        title="$(blog_title) Atom feed" href="$(base_url)/index.atom" />
+  <link rel="alternate" type="application/rss+xml"
+        title="$(blog_title) RSS feed" href="$(base_url)/index.rss20" />
+  <link rel="shortcut icon" href="$(favicon)" />
+  $(head_elements)
+</head>
+<body $(body_attrs)>
+  <header $(header_attrs)>
+    <hgroup $(header_hgroup_attrs)>
+        <h1 $(header_h1_attrs)>
+          <a href="$(base_url)" $(header_a_attrs)>
+            $(blog_title)
+          </a>
+        </h1>
+        <h2 $(header_h2_attrs)>$(blog_description)</h2>
+    </hgroup>
+  </header>

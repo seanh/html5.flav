@@ -1,0 +1,23 @@
+<footer $(footer_attrs)>
+  <nav $(footer_nav_attrs)>
+    <ul $(footer_ul_attrs)>
+      <li $(pyblosxom_li_attrs)>
+        <a href="http://pyblosxom.github.com/" $(pyblosxom_a_attrs)>
+          Made with Pyblosxom
+        </a>
+      </li>
+      <li $(author_li_attrs)>
+        <a rel="author" href="mailto:$(blog_email)" $(author_a_attrs)>
+          $(blog_author)
+        </a>
+      </li>
+      <li $(rights_li_attrs)>
+        <a rel="license" $(rights_a_attrs)>
+          $(blog_rights)
+        </a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+</body>
+</html>
