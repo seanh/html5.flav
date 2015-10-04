@@ -14,9 +14,12 @@
       <ul $(article_footer_ul_attrs)>
         <li $(article_time_li_attrs)>
           posted at:
-          <time datetime="$(yr)-$(mo_num)-$(da)" $(article_time_attrs)>
-            $(date)
-          </time>
+          <a href="$(base_url)/$(urlencode(file_path))" rel="bookmark"
+             title="link to this post" $(article_time_a_attrs)>
+            <time datetime="$(yr)-$(mo_num)-$(da)" $(article_time_attrs)>
+              $(date)
+            </time>
+          </a>
         </li>
         <li $(article_path_li_attrs)>
           path:
